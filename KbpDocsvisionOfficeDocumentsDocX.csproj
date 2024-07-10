@@ -7,8 +7,8 @@
     <ProjectGuid>{98AF9003-E36C-460D-8594-FAEFA615BDA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kbp.Docsvision.OfficeDocumentProcessing.XceedDocX.WordDocumentGeneration</RootNamespace>
-    <AssemblyName>Kbp.Docsvision.OfficeDocumentProcessing.XceedDocX.WordDocumentGeneration</AssemblyName>
+    <RootNamespace>Kbp.Docsvision.OfficeDocuments.DocX</RootNamespace>
+    <AssemblyName>Kbp.Docsvision.OfficeDocuments.DocX</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Generator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
